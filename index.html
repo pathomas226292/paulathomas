@@ -9,6 +9,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+	<style>
+        /* Default styles for all devices */
+        p {
+            font-size: 16px;
+        }
+
+        /* Tablet styles (600px - 1023px) */
+        @media only screen and (min-width: 600px) and (max-width: 1023px) {
+            p {
+                font-size: 14px;
+            }
+        }
+
+        /* Phone styles (up to 599px) */
+        @media only screen and (max-width: 599px) {
+            p {
+                font-size: 12px;
+            }
+        }
+
+        /* Computer styles (1024px and above) */
+        @media only screen and (min-width: 1024px) {
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
