@@ -1,10 +1,17 @@
-/* 
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+    /* CSS rules for desktop screens */
+}
 
-Moonlight Template 
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+}
 
-https://templatemo.com/tm-512-moonlight
-
-*/
+/* For mobile devices */
+@media (max-width: 767px) {
+    /* CSS rules for mobile screens */
+}
 
 @keyframes seq-preloader {
   50% {
