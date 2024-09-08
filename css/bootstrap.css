@@ -5,10 +5,39 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+    /* CSS rules for desktop screens */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    /* CSS rules for mobile screens */
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+
+  /* For desktops and laptops */
+@media (min-width: 1024px) {
+    /* CSS rules for desktop screens */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    /* CSS rules for mobile screens */
+}
 }
 body {
   margin: 0;
